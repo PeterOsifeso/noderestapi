@@ -1,6 +1,3 @@
-/**
- * Created by tunte on 12/14/15.
- */
 var express = require('express');
 var router = express.Router();
 var db = require('../../helpers/db.js');
