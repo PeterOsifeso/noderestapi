@@ -2,7 +2,6 @@ var express = require('express');
 var path = require('path');
 var bodyParser = require('body-parser');
 
-console.log('test');
 
 // here we define the variables that will contain the actual code of the route
 var teams = require('./routes/api/teams');
@@ -24,7 +23,6 @@ app.use(bodyParser.json());
 app.use('/api/teams', teams);
 app.use('/api/trips', trips);
 
-console.log('we have the server running');
-console.log('Another console log');
+console.log('Server running');
 
 module.exports = app;
