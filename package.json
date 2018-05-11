@@ -2,12 +2,13 @@
   "name": "Sample API",
   "version": "0.0.0",
   "private": true,
-"engines": {
+  "main": "app.js",
+  "engines": {
 	"npm": "3.10.8",
     	"node": "6.8.1"
   },
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node app.js"
   },
   "dependencies": {
     "body-parser": "^1.14.1",
