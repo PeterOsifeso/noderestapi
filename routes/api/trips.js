@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 var db = require('../../helpers/db.js');
 
-/* GET users listing. */
+/* GET trips listing. */
 router.get('/', function(req, res, next) {
 
     var query = db.query('SELECT * FROM trips');
